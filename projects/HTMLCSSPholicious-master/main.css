@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+img {
+    width: 100%;
+    height: 85%;
+}
+
+nav {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav img {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    border-radius: 10px 10px;
+}
+
+.header-logo {
+    text-align: center;
+    font-size: 32px;
+}
+
+.navbar {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0; 
+}
+
+.navbar ul {
+	list-style: none;
+	width: 1050px;
+	margin: 0 auto;
+	padding: 0; 
+}
+
+.navbar li {
+	float: left; 
+}
+
+.navbar li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ddad0d;
+}
+
+.navbar li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
+
+main,
+footer{
+    font-family: 'Barlow', sans-serif;
+}
+
+.about {
+    margin-top: 100px;  
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.about h2 {
+    margin: 20px 75px 50px 75px;
+}
+
+.about img {
+    width: 100%;
+    height: 85%;
+}
+
+.our-story {
+    margin-top: 100px;  
+}
+
+.our-story h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.our-story h4 {
+    text-align: center;
+}
+
+.our-story p{
+    text-align: center;
+    margin: 20px 75px 50px 75px;
+    font-size: 18px;
+}
+
+.our-story img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.our-story h3 {
+    text-align: center;
+    margin: 20px 75px 50px 75px;
+}
+
+.menu .container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.menu-image {
+    filter: brightness(50%);
+}
+.menu-main-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    width: 90%;
+}
+
+.menu-sub-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+.menu .container a {
+    background-color: #ddad0d;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    border-radius: 35px;
+    position: relative;
+}
+
+.menu-button-plaza {
+    top: -100px;
+    right: 100px;
+}
+
+.menu-button-los {
+    top: -100px;
+    left: 100px;
+}
+
+.menu .container a:hover {
+    background-color: #b78f0b;
+}
+
+.locations {
+    text-align: center;
+}
+
+.locations-row {
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.location-container {
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+    
+}
+
+.reservation-delivery-pickup {
+    text-align: center;
+}
+
+.reservation-delivery-pickup h1 {
+    font-size: 32px;
+}
+
+.rdp-row {
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.rdp-container {
+    display: inline-block;
+    width: 33%;    
+    vertical-align: top;
+}
+
+.grubhub-button {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 35px;
+}
+
+.employment {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.employment h3 {
+    margin: 20px 75px 50px 75px; 
+}
+
+.employment ul {
+    display:table; 
+    margin:0 auto;
+}
+
+.employment li {
+    font-size: 32px;
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+footer {
+    background-color: #ddad0d;
+    height: 275px;
+    text-align: center;
+}
+
+footer h1 {
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.fa-facebook-square {
+    color: rgb(59, 91, 152);
+  }
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-facebook-square:hover {
+    color: black;
+  }
+
+.fa-linkedin:hover {
+    color: black;
+}
+
+.fa-github-square:hover {
+    color: black;
+}
+
