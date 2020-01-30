@@ -47,6 +47,8 @@ body { /*fixes issue of scrollbar showing up on x axis*/
 
 #about-me img {
     border-radius: 50px;
+    height: 85%;
+    width: 85%;
 }
 
 #about-me {
@@ -65,4 +67,30 @@ body { /*fixes issue of scrollbar showing up on x axis*/
 #portfolio img {
     height: auto;
     width: 500px;
+}
+
+.fa-facebook-square {
+    /* color: rgb(59, 91, 152); */
+    color: black;
+  }
+
+  .fa-github-square {
+      color: black;
+  }
+
+.fa-linkedin {
+    /* color: #0e76a8; */
+    color: black;
+}
+
+.fa-facebook-square:hover {
+    color: white;
+  }
+
+.fa-linkedin:hover {
+    color: white;
+}
+
+.fa-github-square:hover {
+    color: white;
 }
